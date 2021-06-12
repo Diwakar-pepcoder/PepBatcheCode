@@ -18,7 +18,7 @@ public class Main {
         
         for(int i=0;i<n;i++){
             for(int t=0;t<=tar;t++){
-                if(t == 0 || t == coin[i]){
+                if(t == 0 || coin[i] == t){
                     qb[i][t] = true;
                     continue;
                 }
